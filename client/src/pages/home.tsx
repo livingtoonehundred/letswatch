@@ -6,7 +6,7 @@ import FilterSidebar from '@/components/filter-sidebar';
 import MovieGrid from '@/components/movie-grid';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-<img src="/logo.png" alt="Let's Watch Logo" />
+
 
 export default function Home() {
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
