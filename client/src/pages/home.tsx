@@ -6,7 +6,7 @@ import FilterSidebar from '@/components/filter-sidebar';
 import MovieGrid from '@/components/movie-grid';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import logoPath from '@assets/ChatGPT Image Aug 9, 2025, 09_42_33 PM_1754772290220.png';
+<img src="/logo.png" alt="Let's Watch Logo" />
 
 export default function Home() {
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
