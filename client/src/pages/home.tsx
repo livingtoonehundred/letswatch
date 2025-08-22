@@ -38,7 +38,17 @@ export default function Home() {
   const toggleMobileFilters = () => {
     setIsMobileFiltersOpen(!isMobileFiltersOpen);
   };
-
+          <div className="flex items-center space-x-4">
+            <img src="/logo.png" alt="Let's Watch Logo" className="h-8 w-auto" />
+            <div>
+              <h1 className="text-xl sm:text-2xl font-bold text-netflix-text">
+                Let's Watch
+              </h1>
+              <p className="text-sm text-netflix-text text-opacity-75 hidden sm:block">
+                Netflix Content Filter
+              </p>
+            </div>
+          </div>
   const closeMobileFilters = () => {
     setIsMobileFiltersOpen(false);
   };
